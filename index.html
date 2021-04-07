@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecaster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+        <h1 id="welcome">Welcome to Weather Forecaster</h1>
+        <form>
+            <select name="city" id="city">
+                <option value="blank">--Choose a city--</option>
+                <option value="Kathmandu">Kathmandu</option>
+                <option value="Hongkong">Hongkong</option>
+            </select>
+            
+            <button type="submit" id="btn-submit">Forecast</button>
+        </form>
+    </div>
+    
+    <div class="result">
+        <img src="" id="weather-image" alt="weather">
+        <p>Description: <span id="condition"></span></p>
+        <p>Temperature: <span id="temperature"></span></p>
+    </div>
+
+</body>
+<script src="main.js"></script>
+</html>
